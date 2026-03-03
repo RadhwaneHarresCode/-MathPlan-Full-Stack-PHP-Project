@@ -2,30 +2,6 @@
 
 A complete full-stack web application: **30-day math study planner** with authentication, progress tracking, and admin dashboard.
 
----
-
-## 🚀 Quick Start (localhost in 3 steps)
-
-### Step 1 — Database
-```bash
-mysql -u root -p < config/schema.sql
-```
-> Creates the `mathplan` database and seeds all 30 study days.
-
-### Step 2 — Configure DB (if needed)
-Edit `config/database.php` and update credentials:
-```php
-define('DB_USER', 'root');
-define('DB_PASS', 'yourpassword');
-```
-
-### Step 3 — Run
-```bash
-php -S localhost:8000
-```
-Open **http://localhost:8000** in your browser. ✅
-
----
 
 ## 🗂 Project Structure
 ```
@@ -129,3 +105,4 @@ Register new student accounts via the UI.
 ---
 
 *Built with PHP 8.1 · PDO · MySQL · Vanilla JS — zero dependencies.*
+By Radhwane Harres in 2026
